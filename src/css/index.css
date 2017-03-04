@@ -1,0 +1,267 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.clearfix {
+    zoom: 1;
+}
+.clearfix:after {
+    content: '.';
+    height: 0;
+    clear: both;
+    display: block;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.send-wrap {
+	position: relative;
+	width: 100%;
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+.send-icons {
+	background: url(../images/send-icons.png) no-repeat;
+}
+.send-area-wrap {
+	position: relative;
+	height: 130px;
+	padding: 10px 10px 15px 10px;
+	margin-bottom: 12px;
+	background-color: white;
+	border: 1px solid #ff7e25;
+}
+.send-textarea {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+	color: #52505a;
+	border: none;
+	background: none;
+	resize: none;
+}
+.send-textarea:focus {
+	outline: none;
+}
+.send-count {
+	position: absolute;
+	bottom: 0;
+	right: 5px;
+	color: #6f7a7e;
+	font-size: 14px;
+}
+.send-show-wrap {
+	display: none;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	min-height: 20px;
+	font-size: 16px;
+}
+
+.send-func-wrap {
+	padding-top: 5px;
+}
+.send-topic-wrap {
+	position: relative;
+	margin-right: 17px;
+}
+.send-topic-btn {
+	display: block;
+}
+.send-topic-btn i {
+	display: block;
+	width: 13px;
+	height: 15px;
+	margin: 1px 7px 0 3px;
+	background-position: -14px -32px;
+}
+.send-topic-btn u {
+	line-height: 17px;
+	font-size: 14px;
+	color: #52505a;
+	text-decoration: none;
+}
+
+.send-face-wrap {
+	position: relative;
+	margin-right: 17px;
+}
+.send-face-btn {
+	display: block;
+}
+.send-face-btn i {
+	display: block;
+	width: 17px;
+	height: 17px;
+	margin-right: 7px;
+	background-position: -14px -8px;
+}
+.send-face-btn u {
+	line-height: 17px;
+	font-size: 14px;
+	color: #52505a;
+	text-decoration: none;
+}
+.send-face-list {
+	display: none;
+	position: absolute;
+	top: 25px;
+	left: 0;
+	width: 372px;
+	padding: 10px;
+	border: 1px solid #ff7e25;
+	background-color: white;
+}
+.send-face-list i {
+	position: absolute;
+	display: block;
+	width: 0;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+}
+.send-face-arrow {
+	top: -10px;
+	left: 10px;
+	border-width: 5px;
+	border-style: dashed dashed solid dashed;
+	border-color: transparent transparent #ff7e25 transparent;
+}
+.send-face-arrow1 {
+	top: -6px;
+	left: 12px;
+	border-width: 3px;
+	border-style: dashed dashed solid dashed;
+	border-color: transparent transparent white transparent;
+}
+.send-face-item .it {
+	float: left;
+	width: 22px;
+	height: 22px;
+	padding: 4px;
+	margin: -1px 0 0 -1px;
+	border: 1px solid #ff7e25;
+	list-style: none;
+}
+.sand-face-itbtn {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+.send-pic-wrap {
+	position: relative;
+}
+.send-pic-btn {
+	display: block;
+}
+.send-pic-btn i {
+	display: block;
+	width: 21px;
+	height: 17px;
+	margin-right: 7px;
+	background-position: -49px -8px;
+}
+.send-pic-btn u {
+	line-height: 17px;
+	font-size: 14px;
+	color: #52505a;
+	text-decoration: none;
+}
+
+.send-submit-btn {
+	display: block;
+	width: 66px;
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	font-size: 14px;
+	color: white;
+	background-color: #ff7e25;
+	text-decoration: none;
+}
+.send-submit-btn:hover {
+	opacity: 0.9;
+}
+
+.send-uppic-wrap {
+	display: none;
+	margin-top: 10px;
+}
+.send-uppic-item {
+	display: table;
+	width: 50px;
+	height: 50px;
+	margin: 0 10px 10px 0;
+	border: 1px solid #ccc;
+}
+.send-uppic-inner {
+	position: relative;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.send-uppic-inner img {
+	display: block;
+}
+.send-uppic-close {
+	position: absolute;
+	top: -7px;
+	right: -7px;
+	display: block;
+	width: 13px;
+	height: 14px;
+	background-position: -82px -9px;
+}
+
+.send-at-wrap {
+	position: absolute;
+	display: none;
+	width: 192px;
+	height: 180px;
+	background-color: white;
+	box-shadow: 0 0 3px #be6e19;
+}
+.send-at-title {
+	width: 164px;
+	height: 28px;
+	margin: 0 auto 6px;
+	text-align: center;
+	line-height: 28px;
+	border-bottom: 1px solid #d6d6d6;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #52505a;
+}
+.send-at-list {
+	height: 145px;
+	overflow: auto;
+}
+.send-at-item .it {
+	float: left;
+	width: 100%;
+}
+.send-at-btn {
+	display: block;
+	height: 25px;
+	padding: 0 15px;
+	line-height: 25px;
+	font-size: 12px;
+	color: #52505a;
+	text-decoration: none;
+}
+.send-at-btn:hover, .send-at-active {
+	color: white;
+	background-color: #f08311;
+}
+
+
