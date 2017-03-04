@@ -76,7 +76,7 @@ Example
     var options = {
       list: arrays
     };
-	  publish.call($('div[nt="send-main"]'),options);
+    publish.call($('div[nt="send-main"]'),options);
 </script>
 ```
 
